@@ -1,0 +1,61 @@
+ * {
+     box-sizing: border-box;
+ }
+ 
+ .encabezado {
+     border: 2px dotted purple;
+     padding: 15px;
+ }
+ 
+ .fila::after {
+     content: "";
+     clear: both;
+     display: table;
+ }
+ 
+ [class*="col-"] {
+     float: left;
+     padding: 10px;
+     border: 2px solid gray;
+     border-radius: 10px;
+ }
+ 
+ [class*="col-"]:hover {
+     border: 2px solid white;
+ }
+ 
+ @media only screen and (max-width: 500px) {
+     body {
+         background-color: green;
+         color: white;
+         font-size: 20px;
+     }
+     div[class="col-x"] {
+         width: 100%;
+         /*.col12*/
+     }
+ }
+ 
+ @media only screen and (min-width: 501px) and (max-width: 900px) {
+     body {
+         background-color: orange;
+         color: black;
+         font-size: 25px;
+     }
+     div[class="col-x"] {
+         width: 50%;
+         /*.col6*/
+     }
+ }
+ 
+ @media only screen and (min-width: 901px) {
+     body {
+         background-color: red;
+         color: white;
+         font-size: 30px;
+     }
+     div[class="col-x"] {
+         width: 25%;
+         /*.col3*/
+     }
+ }

@@ -1,0 +1,157 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>.:: Registro ::.</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend align="center">Identidad</legend>
+        <p>Ingresa los datos para registrar tu identidad</p>
+        <form action="accionForm.html" method="GET">
+            <label for="boleta">No. de boleta: </label><br />
+            <input type="number" id="boleta" maxlength="10" size="10" min="0" max="9999999999" /><br />
+
+            <label for="nombre">Nombre: </label><br />
+            <input type="text" id="nombre" maxlength="30" size="30" /><br />
+
+            <label for="apellidop">Apellido Paterno: </label><br />
+            <input type="text" id="apellidop" maxlength="30" size="30" /><br />
+            <label for="apellidom">Apellido Materno: </label><br />
+            <input type="text" id="apellidom" maxlength="30" size="30" /><br />
+
+            <label for="fecha">Fecha de nacimiento: </label><br />
+            <input type="date"><br />
+
+            <label for="genero2">Género: </label><br />
+            <input type="radio" name="genero2" />Femenino
+            <input type="radio" name="genero2" />Masculino <br />
+
+            <label for="curp">CURP: </label><br />
+            <input type="text" id="curp" maxlength="18" size="20" /><br />
+            <input type="reset" value="Limpiar">
+            <input type="submit" value="Enviar"><br />
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend align="center">Contacto: </legend>
+        <p>Ingresa los datos para registrar tu contacto</p>
+        <form action="accionForm.html" method="GET">
+            <label for="calle-numero">Calle y número: </label><br />
+            <input type="text" id="calle-numero"><br />
+            <label for="colonia">Colonia: </label><br />
+            <input type="text" id="colonia"><br />
+            <label for="alcaldia">Selecciona una alcaldía:</label><br />
+
+            <select name="alcaldia" id="alcaldia">
+                <option value="1">Álvaro Obregón</option>
+                <option value="2">Azcapotzalco</option>
+                <option value="3">Benito Juárez</option>
+                <option value="4">Coyoacán</option>
+                <option value="5">Cuajimalpa de Morelos</option>
+                <option value="6">Cuauhtémoc</option>
+                <option value="7">Gustavo A. Madero</option>
+                <option value="8">Iztacalco</option>
+                <option value="9">Iztapalapa</option>
+                <option value="10">La Magdalena Contreras</option>
+                <option value="11">Miguel Hidalgo</option>
+                <option value="12">Milpa Alta</option>
+                <option value="13">Tláhuac</option>
+                <option value="14">Tlalpan</option>
+                <option value="15">Venustiano Carranza</option>
+                <option value="16">Xochimilco</option>
+            </select><br />
+            <label for="cp">Código Postal: </label><br />
+            <input type="number" id="cp"><br />
+            <label for="telefono">Teléfono o celular: </label><br />
+            <input type="tel" id="telefono"><br />
+            <label for="mail">Correo electrónico: </label><br />
+            <input type="email" placeholder="ejemplo@correo.com" id="mail">
+            <br />
+            <input type="reset" value="Limpiar">
+            <input type="submit" value="Enviar"><br />
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend align="center">Procedencia</legend>
+        <p>Ingresa los datos para registrar tu procedencia</p>
+        <form action="" method="" enctype="">
+            <p>Escuela procedencia:</p>
+
+            <input type="radio" name="escuelaP">CECyT 1<br>
+            <input type="radio" name="escuelaP">CECyT 2<br>
+            <input type="radio" name="escuelaP">CECyT 3<br>
+            <input type="radio" name="escuelaP">CECyT 4<br>
+            <input type="radio" name="escuelaP">CECyT 5<br>
+            <input type="radio" name="escuelaP">CECyT 6<br>
+            <input type="radio" name="escuelaP">CECyT 7<br>
+            <input type="radio" name="escuelaP">CECyT 8<br>
+            <input type="radio" name="escuelaP">CECyT 9<br>
+            <input type="radio" name="escuelaP">CECyT 10<br>
+            <input type="radio" name="escuelaP">CECyT 11<br>
+            <input type="radio" name="escuelaP">CECyT 12<br>
+            <input type="radio" name="escuelaP">CECyT 13<br>
+            <input type="radio" name="escuelaP">CECyT 14<br>
+            <input type="radio" name="escuelaP">CECyT 15<br>
+            <input type="radio" name="escuelaP">CECyT 19<br>
+            <input type="radio" name="escuelaP">CET 1<br>
+            <input type="radio" name="escuelaP">Otra: <input type="text" id="Escuela" /><br>
+            <br />
+            <label for="Estados">Entidad Federativa:</label><br />
+            <select name="estado" id="estado">
+                <option value="1">Aguascalientes</option>
+                <option value="2">Baja California</option>
+                <option value="3">Baja California Sur</option>
+                <option value="4">Campeche</option>
+                <option value="5">Coahuila</option>
+                <option value="6">Colima</option>
+                <option value="7">Chiapas</option>
+                <option value="8">Chihuahua</option>
+                <option value="9">Ciudad de Mexico</option>
+                <option value="10">Durango</option>
+                <option value="11">Guanajuato</option>
+                <option value="12">Guerrero</option>
+                <option value="13">Hidalgo</option>
+                <option value="14">Jalisco</option>
+                <option value="15">México</option>
+                <option value="16">Michoacán</option>
+                <option value="17">Morelos</option>
+                <option value="18">Nayarit</option>
+                <option value="19">Nuevo León</option>
+                <option value="20">Oaxaca</option>
+                <option value="21">Puebla</option>
+                <option value="22">Querétaro</option>
+                <option value="23">Quintana Roo</option>
+                <option value="24">San Luis Potosi</option>
+                <option value="25">Sinaloa</option>
+                <option value="26">Sonora</option>
+                <option value="27">Tabasco</option>
+                <option value="28">Tamaulipas</option>
+                <option value="29">Tlaxcala</option>
+                <option value="30">Veracruz</option>
+                <option value="31">Yucatán</option>
+                <option value="32">Zacatecas</option>
+            </select><br />
+            <label for="escuela">Nombre de la escuela actual: </label><br />
+            <input type="text" id="escuela"><br />
+            <label for="promedio">Promedio: </label>
+            <br>
+            <input type="number" id="promedio" step="0.01" min="0" max="10"><br />
+            <p>ESCOM fue tu: </p>
+            <input type="checkbox" name="opcion" value="primera">Primera opción<br />
+            <input type="checkbox" name="opcion" value="segunda">Segunda opción<br />
+            <input type="checkbox" name="opcion" value="tercera">Tercera opción<br />
+            <input type="checkbox" name="opcion" value="cuarta">Cuarta opción<br />
+            <br />
+            <input type="reset" value="Limpiar">
+            <input type="submit" value="Enviar">
+        </form>
+    </fieldset>
+</body>
+
+</html>
