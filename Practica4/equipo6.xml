@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="equipo6.xsl" ?> 
+<farmacia>
+
+  <medicamento categoria="capsula">
+    <nombre>Lunarium</nombre>
+    <via-administracion>Oral</via-administracion>
+    <contenido>56 capsulas</contenido>
+    <precio>406.00</precio>
+  </medicamento>
+
+    <medicamento categoria="capsula">
+    <nombre>Paracetamol</nombre>
+    <via-administracion>Oral</via-administracion>
+    <contenido>16 capsulas</contenido>
+    <precio>60.00</precio>
+  </medicamento>
+
+    <medicamento categoria="capsula">
+    <nombre>Amoxicilina</nombre>
+    <via-administracion>Oral</via-administracion>
+    <contenido>12 capsulas</contenido>
+    <precio>126.00</precio>
+  </medicamento>
+  
+    <medicamento categoria="capsula">
+    <nombre>Ampicilina</nombre>
+    <via-administracion>Oral</via-administracion>
+    <contenido>20 capsulas</contenido>
+    <precio>146.00</precio>
+  </medicamento>
+
+  <medicamento categoria="comprimido">
+    <nombre>Nari-Sol</nombre>
+    <via-administracion>Oral</via-administracion>
+    <contenido>07 comprimidos</contenido>
+    <precio>455.00</precio>
+  </medicamento>
+  
+  <medicamento categoria="comprimido">
+    <nombre>Rinofren antigripal</nombre>
+    <via-administracion>Oral</via-administracion>
+    <contenido>24 comprimidos</contenido>
+    <precio>117.00</precio>
+  </medicamento>
+  
+  <medicamento categoria="comprimido">
+    <nombre>Mucosolvan</nombre>
+    <via-administracion>Oral</via-administracion>
+    <contenido>20 comprimidos</contenido>
+    <precio>215.00</precio>
+  </medicamento>
+
+  <medicamento categoria="comprimido">
+    <nombre>Pepto-Bismol</nombre>
+    <via-administracion>Oral</via-administracion>
+    <contenido>24 comprimidos</contenido>
+    <precio>148.00</precio>
+  </medicamento>
+
+  <medicamento categoria="jarabe">
+    <nombre>Broncolin Alicolix</nombre>
+    <via-administracion>Oral</via-administracion>
+    <contenido>140 ml</contenido>
+    <precio>102.00</precio>
+  </medicamento>
+
+  <medicamento categoria="jarabe">
+    <nombre>Broncolin Etiqueta Verde</nombre>
+    <via-administracion>Oral</via-administracion>
+    <contenido>250 ml</contenido>
+    <precio>155.00</precio>
+  </medicamento>
+
+  <medicamento categoria="jarabe">
+    <nombre>Pharmaton Kiddi</nombre>
+    <via-administracion>Oral</via-administracion>
+    <contenido>200 ml</contenido>
+    <precio>328.00</precio>
+  </medicamento>
+  
+  <medicamento categoria="jarabe">
+    <nombre>Tukol-D</nombre>
+    <via-administracion>Oral</via-administracion>
+    <contenido>125 ml</contenido>
+    <precio>92.00</precio>
+  </medicamento>
+</farmacia>
